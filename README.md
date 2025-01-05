@@ -50,6 +50,4 @@ structure/
 ├── index.html
 ├── LICENSE.txt
 ├── README.md
-
-
 ```
