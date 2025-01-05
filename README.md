@@ -27,49 +27,29 @@ A Python script to create folder and file structures from a tree-like input file
 ## Example
 Input `tree.txt`:
 ```
-my-python-project
-├── .github
-│   ├── workflows
-│   │   └── ci.yml
-├── my_python_project
-│   ├── __init__.py
-│   ├── main.py
-│   ├── config.py
-│   ├── models
-│   │   └── my_model.py
-│   ├── services
-│   │   └── my_service.py
-│   ├── utils
-│   │   ├── helper.py
-│   │   └── logger.py
-│   ├── data
-│   │   ├── data_processor.py
-│   │   └── datasets
-│   │       ├── dataset1.csv
-│   │       └── dataset2.csv
-│   ├── api
-│   │   ├── api_controller.py
-│   │   └── api_routes.py
-│   └── tests
-│       ├── __init__.py
-│       ├── test_main.py
-│       ├── test_models.py
-│       ├── test_services.py
-│       └── test_utils.py
-├── docs
-│   ├── index.rst
-│   ├── installation.rst
-│   ├── usage.rst
-│   └── api_reference.rst
-├── scripts
-│   ├── data_analysis.py
-│   └── run_server.py
-├── requirements.txt
-├── setup.py
-├── LICENSE
+structure/
+├── _layouts/
+│   ├── default.html
+│   ├── home.html
+│   ├── post.html
+├── _includes/
+│   ├── header.html
+│   ├── footer.html
+│   ├── nav.html
+├── _sass/
+│   ├── _variables.scss
+│   ├── _mixins.scss
+├── assets/
+│   ├── css/
+│   │   ├── style.scss
+│   ├── js/
+│   │   ├── theme.js
+├── _posts/
+│   ├── 2024-01-01-example.md
+├── _config.yml
+├── index.html
+├── LICENSE.txt
 ├── README.md
-├── .gitignore
-├── .env
-└── pyproject.toml
+
 
 ```
