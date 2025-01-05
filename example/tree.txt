@@ -1,0 +1,23 @@
+structure/
+├── _layouts/
+│   ├── default.html
+│   ├── home.html
+│   ├── post.html
+├── _includes/
+│   ├── header.html
+│   ├── footer.html
+│   ├── nav.html
+├── _sass/
+│   ├── _variables.scss
+│   ├── _mixins.scss
+├── assets/
+│   ├── css/
+│   │   ├── style.scss
+│   ├── js/
+│   │   ├── theme.js
+├── _posts/
+│   ├── 2024-01-01-example.md
+├── _config.yml
+├── index.html
+├── LICENSE.txt
+├── README.md
